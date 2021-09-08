@@ -1,0 +1,43 @@
+{
+    "name": "VC-BOT",
+    "description": "A USERBOT THAT CAN PLAY VC ON A TG GROUP.",
+    "logo": "https://telegra.ph/file/e7bc4a8ea02133a4f1a23.jpg",
+    "keywords": [
+        "Music",
+        "VC Player",
+        "TG BOT",
+        "VC CHAT"
+    ],
+    "website": "https://github.com/MR-JINN-OF-TG",
+    "repository": "https://github.com/MR-JINN-OF-TG",
+    "success_url": "https://t.me/NAZRIYASUPPORT",
+    "env": {
+        "STRING_SESSION": {
+            "description": "Your pyrogram string session from https://replit.com/@MRJINNOFTG/TG-SESSION",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
