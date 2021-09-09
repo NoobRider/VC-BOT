@@ -4,7 +4,7 @@
 ## Necessary Variables
 - `API_ID` - Your API_ID from [my.telegram.org](https://my.telegram.org/)
 - `API_HASH` - Your API_HASH from [my.telegram.org](https://my.telegram.org/)
-- `SESSION_STRING` - YOUR PYROGRAM SESSION. Get it from [HERE](https://replit.com/@MRJINNOFTG/TG-SESSION) 
+- `STRING_SESSION` - YOUR PYROGRAM SESSION. Get it from [HERE](https://replit.com/@MRJINNOFTG/TG-SESSION) 
 
 
 ## DEPLOY TO HEROKU
